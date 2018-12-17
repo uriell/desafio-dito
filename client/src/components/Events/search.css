@@ -1,0 +1,17 @@
+.Search {
+  width: 100%;
+}
+
+.Search-SearchInput input {
+  padding-right: 95px !important;
+  padding-left: 35px !important;
+}
+
+.Search-SearchIcon {
+  color: rgba(0, 0, 0, .25);
+}
+
+.Search-SearchButton {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

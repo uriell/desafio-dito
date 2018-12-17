@@ -1,0 +1,18 @@
+{
+  "static": {
+    "ditoEventsURL": "https://storage.googleapis.com/dito-questions/events.json"
+  },
+  "express": {
+    "port": 3001
+  },
+  "db": {
+    "sequelize": {
+      "dialect": "postgres",
+      "username": "postgres",
+      "password": "ditoischallengingme",
+      "host": "localhost",
+      "port": 5432,
+      "database": "ditochallenge"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.Timeline {
+  padding: 14px 24px;
+}
+
+.Timeline-TimelineTitle {
+  display: inline-block;
+}
+
+.Timeline-TimelineButton {
+  margin: 0 15px;
+  top: -4px;
+}
+
+.Card {
+  border-radius: 5px 5px 10px 10px;
+  border-top: 5px solid #1890ff;
+}
+
+.Card .ant-card-body {
+  padding: 5px 25px !important;
+}

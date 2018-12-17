@@ -1,0 +1,26 @@
+.AppHeader {
+  display: flex;
+}
+
+.AppHeader-AppHeaderLogo {
+  float: left;
+  margin: 0 10px;
+}
+
+.AppHeader-AppHeaderLogo img {
+  height: 50px;
+}
+
+.AppHeader-AppHeaderMenu {
+  line-height: 64px;
+  max-height: 64px;
+  max-width: calc(100% - 101px);
+}
+
+.AppHeader-AppHeaderMenu .ant-menu-item {
+  padding: 0 15px;
+}
+
+.AppHeader-AppHeaderButton {
+  margin: 15px;
+}

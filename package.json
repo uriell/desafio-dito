@@ -1,0 +1,17 @@
+{
+  "name": "dito",
+  "version": "1.0.0",
+  "description": "dito challenge!",
+  "repository": "git@gitlab.com:Burkes/dito.git",
+  "author": "Uriell <uriellarttusviana@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "start": "npm-run-all --parallel start:*"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.2"
+  }
+}

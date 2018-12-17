@@ -1,0 +1,36 @@
+#__next {
+  height: 100%;
+}
+
+.Layout, #__next {
+  background: #f0f2f5;
+}
+
+.Layout-LayoutHeader {
+  padding: 0;
+}
+
+.Layout-LayoutContentContainer {
+  padding: 50px;
+}
+
+.Layout-LayoutContent {
+  background: #fff;
+  padding: 24px;
+}
+
+@media (max-width: 767px) {
+  .Layout-LayoutContentContainer {
+    padding: 5px 2px;
+  }
+
+  .Layout-LayoutContent {
+    padding: 5px 2px;
+  }
+}
+
+.Layout-LayoutFooter {
+  text-align: center;
+  min-height: 24px;
+  padding: 24px;
+}

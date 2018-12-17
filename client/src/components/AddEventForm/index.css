@@ -1,0 +1,22 @@
+.ant-form-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.Form-FormCustomProp {
+  width: 85%;
+}
+
+.Form-FormRemovePropIcon {
+  font-size: 20px;
+  margin-left: 5px;
+  color: #d9d9d9;
+  cursor: pointer;
+}
+
+.Form-FormRemovePropIcon:hover {
+  color: #40a9ff;
+}
+
+.Form-FormClearButton {
+  margin-left: 5px;
+}
