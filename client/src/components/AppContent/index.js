@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class AppComponent extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     // diremos ao servidor para obter os eventos estáticos, porém não precisamos deles para nada..
     this.props.fetchStaticEvents();
   }
