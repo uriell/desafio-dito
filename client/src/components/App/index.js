@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { Layout } from 'antd';
 import { Switch, Route } from 'react-router-dom';
 
@@ -12,6 +13,9 @@ const { Header, Footer, Content } = Layout;
 
 export default () => (
   <Layout className="Layout">
+    <Head>
+      <title>Dito Challenge Client</title>
+    </Head>
     <Header className="Layout-LayoutHeader">
       <AppHeader />
     </Header>
@@ -26,7 +30,11 @@ export default () => (
     </Content>
 
     <Footer className="Layout-LayoutFooter">
-      Made with <span role="img" aria-label="Heart">❤️</span> by Uriell Viana for Dito
+      Made with{" "}
+      <span role="img" aria-label="Heart">
+        ❤️
+      </span>{" "}
+      by Uriell Viana for Dito
     </Footer>
   </Layout>
 );

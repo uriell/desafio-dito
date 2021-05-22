@@ -23,13 +23,15 @@ if (env === 'development') {
 }
 
 // ORM (banco de dados)
-app.locals.sequelize = new Sequelize(mergeWith(config.db.sequelize, {
-  logging: false,
-  operatorsAliases: false,
-  define: {
-    timestamps: false,
-  },
-}));
+app.locals.sequelize = new Sequelize(
+  mergeWith(config.db.sequelize, {
+    logging: false,
+    operatorsAliases: false,
+    define: {
+      timestamps: false,
+    },
+  })
+);
 
 // middlewares
 app.use((req, res, next) => {
@@ -55,13 +57,13 @@ app.use(middlewares.notFound);
     await models(app.locals.sequelize);
 
     app.listen(config.express.port, () => {
-      if (!env === 'test') {
+      if (env !== 'test') {
         console.info('[!] dito challenge api server started!');
       }
     });
   } catch (err) {
     console.error(err);
   }
-}());
+})();
 
 module.exports = app;

@@ -10,7 +10,7 @@
       "dialect": "postgres",
       "username": "postgres",
       "password": "ditoischallengingme",
-      "host": "localhost",
+      "host": "postgres",
       "port": 5432,
       "database": "ditochallenge"
     }
